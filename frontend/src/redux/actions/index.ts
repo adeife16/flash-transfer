@@ -1,0 +1,4 @@
+export const SET_TOKEN = "SET_TOKEN"
+export const SET_TOKEN_AMOUNT = "SET_TOKEN_AMOUNT"
+export const SET_FEE_AMOUNT = "SET_FEE_AMOUNT"
+export const SET_RECEIVE_CASH = "SET_RECEIVE_CASH"

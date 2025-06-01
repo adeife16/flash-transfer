@@ -1,0 +1,16 @@
+.inputStyle {
+  height: "200px !important";
+  width: "200px";
+}
+
+.inputStyle {
+  width: 100% !important;
+  height: 100px;
+  border-radius: 7px;
+  border: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border: 1px solid #8d918f;
+  background: #edf2ef;
+  font-size: 30px;
+}

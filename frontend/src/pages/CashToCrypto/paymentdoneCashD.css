@@ -1,0 +1,240 @@
+
+.layoutSide{
+    margin-top: 30px;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.firstblock{
+    width: 300px;
+    padding: 5px 20px;
+}
+
+.secondblock{
+    background-color: white;
+    padding: 20px;
+}
+
+.successImg{
+    width: 40px;
+    height: 40px;
+}
+.thirdblock{
+    padding-left: 20px;
+}
+
+.received_text{
+    font-size: 48px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.almostDone_text{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    margin-left: 14px;
+}
+
+.instruction_text{
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+}
+
+.circleSign{
+    width: 30px !important;
+    height: 30px !important;
+    
+    border-radius: 50%;
+    border: solid 2px #4F46E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4F46E5;
+    margin-right: 15px;
+    font-size: 16px;
+    aspect-ratio: 1 / 1;
+}
+
+.circle_description{
+    font-size: 16px;
+    color: #6A6A6A;
+    margin: 0;
+    padding: 0;
+}
+
+.circleblock{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.instruction_block {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemproperty_text{
+    font-size: 18px;
+    color:#6A6A6A;
+}
+.itemvalue_text{
+    color: black;
+    font-size: 18px;
+}
+
+.first_description{
+    color: #9DAFBD;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.property_list{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.trackblock{
+    margin: 20px 0px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.track_text{
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.track_img{
+    width: 40px;
+    height: 40px;
+}
+.track_description{
+    font-size: 16px;
+    color: #9DAFBD;
+}
+.track_md{
+    font-size: 16px;
+    color: #9DAFBD;
+    display: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    padding: 0 10px;
+}
+.footer_text{
+    color: #6A6A6A;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.footerImg{
+    width: 35px;
+    height: 35px;
+}
+.printblock{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+@media screen and (max-width: 900px) {
+    .layoutSide{
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .firstblock{
+        width: 100%;
+        padding: 10px;
+    }
+    .thirdblock{
+        display: none;
+    }
+    .printblock{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .layoutSide{
+        padding: 15px 10px;
+    }
+    .instruction_block{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .itemproperty_text{
+        font-size: 16px;
+    }
+    .itemvalue_text{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .circleSign{
+        min-width: 20px;
+        max-width: 20px;
+        max-height: 20px;
+        min-height: 20px;
+        font-size: 11px;
+    }
+    .circle_description{
+        font-size: 14px;
+    }
+    .track_img{
+        width: 20px;
+        height: 20px;
+    }
+    .track_text{
+        font-size: 18px;
+    }
+    .track_description{
+        display: none;
+    }
+    .track_md{
+        margin-top: 20px;
+        display: block;
+        font-size: 14px;
+    }
+    .footer_text{
+        font-size: 14px;
+    }
+    .footerImg{
+        width: 30px;
+        height: 30px;
+    }
+    .received_text{
+        font-size: 36px;
+    }
+    .first_description{
+        font-size: 14px;
+    }
+    .successImg{
+        width: 30px;
+        height: 30px;
+    }
+    .instruction_text{
+        font-size: 18px;
+    }
+}
+

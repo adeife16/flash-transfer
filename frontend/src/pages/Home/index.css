@@ -1,0 +1,78 @@
+.css-ptiqhd-MuiSvgIcon-root {
+  display: none !important;
+}
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-viou3o-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding-right: 30px !important;
+  cursor: pointer !important;
+}
+
+.css-viou3o-MuiAutocomplete-root .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+  text-overflow: ellipsis !important;
+  font-size: 14px;
+  max-width: 76%;
+  white-space: nowrap !important;
+}
+
+.MuiInputBase-root .MuiOutlinedInput-root .MuiInputBase-colorPrimary .MuiInputBase-fullWidth .MuiInputBase-formControl .MuiInputBase-adornedStart .MuiInputBase-adornedEnd .MuiAutocomplete-inputRoot .css-1gywuxd-MuiInputBase-root-MuiOutlinedInput-root {
+  cursor: pointer !important;
+}
+
+.weglot_switcher {
+  margin: -0px 0px 0px 0px !important;
+
+}
+
+/* #weglot-language-en {
+margin: 0px -30px 0px 0px;
+  }
+  
+  
+#weglot-language-fr{
+  margin: 0px -30px 0px 0px;
+  
+}
+#weglot-language-es{
+    margin: 0px -30px 0px 0px;
+
+} */
+@media only screen and (max-width: 600px) {
+  .wg-li {
+    margin: -17px -4px 0px 3px;
+
+
+  }
+
+  /* #weglot-language-en {
+margin: 0px -30px 0px 0px;
+  } */
+
+
+  #weglot-language-fr {
+    margin: 0px -30px 0px 0px;
+
+  }
+
+  #weglot-language-es {
+    margin: 0px -30px 0px 0px;
+
+  }
+}
+
+.gridPadding {
+  /* style={{ paddingLeft: '100px', paddingRight: '100px', marginTop: '50px', marginBottom: '100px' }} */
+  padding: 100px;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .gridPadding {
+    /* style={{ paddingLeft: '100px', paddingRight: '100px', marginTop: '50px', marginBottom: '100px' }} */
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+  }
+}
+

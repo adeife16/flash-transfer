@@ -1,0 +1,7 @@
+{
+    "auths": {
+        "registry.digitalocean.com": {
+            "auth": "a9a0b9ca7013211558129489b23b08967d30503300363399a683d4d52bcc0a44"
+        }
+    }
+}
